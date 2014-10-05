@@ -10,9 +10,9 @@ Description:
 
 Required:	 
 			 
-		 Find the spare capacity of the convoy as the sum of squares of the unused capacity of each 
-		 lorry in the convoy. We want to load the lorries in such a way to minimize the spare capacity 
-		 of the convoy.
+		 Find the spare capacity of the convoy as the sum of squares of the unused capacity of 
+		 each lorry in the convoy. We want to load the lorries in such a way to minimize the 
+		 spare capacity of the convoy.
 
 Solution:	
 			
