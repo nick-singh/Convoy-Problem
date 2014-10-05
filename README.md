@@ -1,16 +1,22 @@
 Problem:	Convoy
 
-Description: Given lorries, all of equal capacity, to be filled with items of various weight
+Description: 
+
+			 Given lorries, all of equal capacity, to be filled with items of various weight
 			 which come off a conveyor belt. Each item must be loaded onto the lorries sequentially 
 			 i.e items 1 to N (for some N) go on the first lorry, items N+1, …, M (for some M) go on 
 			 the second lorry, and so on. Not all lorries will be loaded to their full capacity, 
 			 of course, but it is guaranteed that no single item is too heavy for a lorry. 
 
-Required:	 Find the spare capacity of the convoy as the sum of squares of the unused capacity of each 
+Required:	 
+			 
+			 Find the spare capacity of the convoy as the sum of squares of the unused capacity of each 
 			 lorry in the convoy. We want to load the lorries in such a way to minimize the spare capacity 
 			 of the convoy.
 
-Solution:	FT(i) the best way to fill lorry from items i to n, where i starts a new lorry
+Solution:	
+			
+			FT(i) the best way to fill lorry from items i to n, where i starts a new lorry
 			Wi = weight of item, c = capacity of lorry, if FT(k) > n, FT(k) = 0
 			FT(i) = min [(c - [Wi+...+Wk])^2 + FT(k+1)] for k = 1 to n, where (Wi +... Wk) < c	
 
