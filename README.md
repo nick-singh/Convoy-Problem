@@ -2,17 +2,17 @@ Problem:	Convoy
 
 Description: 
 
-			 Given lorries, all of equal capacity, to be filled with items of various weight
-			 which come off a conveyor belt. Each item must be loaded onto the lorries sequentially 
-			 i.e items 1 to N (for some N) go on the first lorry, items N+1, …, M (for some M) go on 
-			 the second lorry, and so on. Not all lorries will be loaded to their full capacity, 
-			 of course, but it is guaranteed that no single item is too heavy for a lorry. 
+		 Given lorries, all of equal capacity, to be filled with items of various weight
+		 which come off a conveyor belt. Each item must be loaded onto the lorries sequentially 
+		 i.e items 1 to N (for some N) go on the first lorry, items N+1, …, M (for some M) go on 
+		 the second lorry, and so on. Not all lorries will be loaded to their full capacity, 
+		 of course, but it is guaranteed that no single item is too heavy for a lorry. 
 
 Required:	 
 			 
-			 Find the spare capacity of the convoy as the sum of squares of the unused capacity of each 
-			 lorry in the convoy. We want to load the lorries in such a way to minimize the spare capacity 
-			 of the convoy.
+		 Find the spare capacity of the convoy as the sum of squares of the unused capacity of each 
+		 lorry in the convoy. We want to load the lorries in such a way to minimize the spare capacity 
+		 of the convoy.
 
 Solution:	
 			
