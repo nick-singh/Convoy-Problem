@@ -1,11 +1,5 @@
 /*
-	Name:	Nicholas Chamansingh
-	ID:		809002243
-	Course:	Comp6401
-
-
-
-
+	
 	Problem:	Convoy
 	Description: Given lorries, all of equal capacity, to be filled with items of various weight
 				 which come off a conveyor belt. Each item must be loaded onto the lorries sequentially 
